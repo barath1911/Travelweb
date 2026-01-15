@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up | Travel & Tour</title>
+  <link rel="stylesheet" href="/css/Style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="auth-wrapper">
+    <div class="auth-box">
+      <h2>Create Account</h2>
+      <p class="subtitle">Join us and start your travel adventure</p>
+     <form action="/signup" method="post">
+        <div class="input-group">
+          <input type="text" placeholder="Full Name" name="name" required />
+        </div>
+        <div class="input-group">
+          <input type="email" placeholder="Email Address" name="email" required />
+        </div>
+        <div class="input-group">
+          <input type="password" placeholder="Password" name="password" required />
+        </div>
+        <div class="input-group">
+          <input type="password" placeholder="Confirm Password" name="confirmpass" required />
+        </div>
+        <button type="submit" class="btn" id="signupBtn">Sign Up</button>
+        <p class="switch-text">
+          Already have an account? <a href="/signin">Back to Login</a>
+        </p>
+      </form>
+        <p id="message" style="color:green;"></p>
+    </div>
+  </div>
+</body>
+</html>
