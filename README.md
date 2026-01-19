@@ -59,7 +59,7 @@ This project is a **Spring MVC web application** integrated with **Spring Securi
 
 ---
 
-## ⚙️ Configuration Details
+## ⚙️ Configuration Details 
 
 - `spring-security.xml` / Java Config
 - MySQL user table with roles
@@ -67,8 +67,6 @@ This project is a **Spring MVC web application** integrated with **Spring Securi
 - View Resolver setup
 
 ---
-
-## ▶️ How to Run the Project
 
 1. Clone the repository
    ```bash
